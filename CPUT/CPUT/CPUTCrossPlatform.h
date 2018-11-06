@@ -73,14 +73,14 @@
 //
 // MSFT supports _snprintf but not snprintf while GCC does not support sprintf_s
 //
-#ifdef _MSC_VER
+#ifndef _MSC_VER
 #define snprintf _snprintf
 #endif
 
 //
 // MSFT supports sscanf_s while GCC does not. They take the same arguments.
-//
-#ifdef _MSC_VER
+
+#ifndef _MSC_VER
 #define sscanf sscanf_s
 #endif
 

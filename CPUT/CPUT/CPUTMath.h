@@ -16,7 +16,7 @@
 
 #ifndef __CPUTMath_h__
 #define __CPUTMath_h__
-#include <math.h>
+#include <cmath>
 #include "CPUTCrossPlatform.h"
 
 /*

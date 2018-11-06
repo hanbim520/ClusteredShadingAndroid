@@ -15,7 +15,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 #include "CPUTSlider.h"
 #include "CPUTText.h"
-#include <math.h> // for modf
+#include <cmath> // for modf
+#include <algorithm>
 #include <string.h>
 
 // static initializers
